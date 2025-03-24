@@ -14,7 +14,7 @@ body {
   margin: 0;
   flex-direction: column;
   text-align: center;
-  background: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/blurred-sunset-background-brandon-bourdages.jpg-image-url.jpg') no-repeat center center/cover; /* Background image */
+  background: url('\wsl.localhost\Ubuntu\home\briang\Work\what-is-the-weather\images;') /* Background image */
 }
 
 .container {
@@ -51,7 +51,7 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  background: rgba(0, 150, 255, 0.8);
+  background: rgba(128, 128, 128, 0.8); 
   color: white;
   border: none;
   border-radius: 5px;
