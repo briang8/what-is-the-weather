@@ -1,40 +1,72 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
-  background-color: #f0f4f8;
+  flex-direction: column;
+  text-align: center;
+  background: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/blurred-sunset-background-brandon-bourdages.jpg-image-url.jpg') no-repeat center center/cover; /* Background image */
 }
 
 .container {
   text-align: center;
   padding: 20px;
-  background-color: white;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
   border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* Frosted glass effect */
 }
 
 h1 {
-  color: #333;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 input {
   padding: 10px;
   font-size: 16px;
   margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  background: rgba(0, 150, 255, 0.8);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(0, 100, 255, 0.9);
+  transform: translateY(-2px);
 }
 
 #weather-info {
   margin-top: 20px;
   font-size: 18px;
+  color: white;
 }
 
 .hidden {
@@ -45,4 +77,3 @@ button {
   color: red;
   margin-top: 20px;
 }
-
