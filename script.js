@@ -9,7 +9,7 @@ const humidity = document.getElementById('humidity');
 const windSpeed = document.getElementById('wind-speed');
 const description = document.getElementById('description');
 
-const apiKey = 106a58cbc3043f13677355383ae4f049;
+const apiKey = '106a58cbc3043f13677355383ae4f049';
 
 // Event listener for the search button
 searchBtn.addEventListener('click', function() {
