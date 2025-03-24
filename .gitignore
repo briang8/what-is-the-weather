@@ -1,0 +1,13 @@
+# Ignore sensitive files like .env which could contain API keys
+.env
+
+# Ignore OS-specific files
+
+Thumbs.db  
+
+# Ignore log files
+*.log
+
+# Ignore temporary files 
+*.swp  # Vim editor
+*.bak  # Backup files
