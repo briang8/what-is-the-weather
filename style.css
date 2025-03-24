@@ -14,7 +14,7 @@ body {
   margin: 0;
   flex-direction: column;
   text-align: center;
-  background: url('\wsl.localhost\Ubuntu\home\briang\Work\what-is-the-weather\images;') /* Background image */
+  background: url('blurred-sunset-background-brandon-bourdages.jpg') no-repeat center center/cover; * Background image */
 }
 
 .container {
